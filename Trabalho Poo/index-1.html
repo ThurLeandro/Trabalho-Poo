@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trabalho CRUD</title>
+    <link rel="shortcut icon" href="genicon.jpg" type="image/x-icon">
+</head>
+
+<body style="margin: 25px;">
+   <div id="div"> <h1>Cadastro de Produtos</h1>
+    <form action="" id="formu" method="get">
+        <label for="camp">Nome</label>
+        <input type="text" name="camp" id="camp" placeholder="Feijão" >
+        <label for="prec">Preço</label>
+        <input type="number" name="prec" id="prec" placeholder="R$ 6" >
+        <input type="checkbox" name="prim" id="prim"> É prime?
+        <input type="submit" value="Salvar" id="bot">
+        <input type="hidden" name="idx" id="idx">
+    </form>
+</div>
+    <br><br>
+
+    <table id="t">
+      <caption>
+           <h3>Lista de produtos</h3>
+      </caption>
+      <thead>
+          <tr>
+              <th>Identificador</th>
+              <th>Nome do produto</th>
+              <th>Preço do Produto</th>
+              <th>Prime</th>
+              <th>Ação</th>
+          </tr>
+      </thead>
+        
+      <tbody id="tableb"></tbody>
+ 
+
+    </table>
+
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+#bot {
+    background-color: blueviolet;
+    color: white;
+}
+body {
+    background-color: black;
+    color: white;
+    background-image:url(gengar.jpg) ;
+   
+}
+th {
+    
+    border-color: white;
+    color: white;
+    background-color: blueviolet;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+h3 {
+    color: white;
+}
+h1 {
+    color: white;
+}
+input {
+    background-color: blueviolet;
+    color: white;
+}
+#p {
+    color: white;
+}
+#t{
+    margin: 0 auto ;
+}
+#div {
+   text-align: center;
+}
